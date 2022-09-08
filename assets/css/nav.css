@@ -45,3 +45,40 @@ nav .menuItems li a:hover::before {
 	top: 0px;
 	margin: auto;
 }
+
+/* Media queries */
+@media only screen and (max-width: 1200px) {
+	/*Tablets [601px -> 1200px]*/
+	nav {
+		margin: 15px;
+		/* background: #f9f9f9; */
+		padding: 16px;
+	}
+	nav .menuItems li {
+		margin: 20px;
+	}
+}
+@media only screen and (max-width: 600px) {
+	/*Big smartphones [426px -> 600px]*/
+	nav {
+		margin: 10px;
+		/* background: #f9f9f9; */
+		padding: 16px;
+	}
+	nav .menuItems li {
+		margin: 10px;
+	}
+}
+@media only screen and (max-width: 425px) {
+	/*Small smartphones [325px -> 425px]*/
+	nav {
+		margin: 6px;
+		/* background: #f9f9f9; */
+		padding: 16px;
+	}
+	nav .menuItems li {
+		margin: 8px;
+	}
+}
+
+/*  */

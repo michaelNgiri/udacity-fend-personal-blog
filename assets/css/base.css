@@ -1,9 +1,9 @@
 /** @format */
-
+/* 
 * {
 	padding: 0;
 	margin: 0;
-}
+} */
 body {
 	display: flex;
 	flex-direction: column;
@@ -50,6 +50,14 @@ p:hover::before {
 	font-size: xxx-large;
 }
 #feat {
-	margin: 2em 0 0.5em 0 !important;
+	/* margin: 2em 0 0.5em 0 !important; */
 	font-size: xx-large;
+}
+.welcome-txt {
+	text-align: left;
+	margin-left: 1.2em;
+}
+.home-intro {
+	text-align: center;
+	margin-left: 1em;
 }

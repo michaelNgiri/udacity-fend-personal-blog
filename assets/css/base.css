@@ -61,3 +61,7 @@ p:hover::before {
 	text-align: center;
 	margin: 1em;
 }
+#michael {
+	margin-left: 2rem;
+	text-transform: uppercase;
+}

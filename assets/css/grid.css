@@ -24,7 +24,7 @@
 		flex-direction: column;
 		align-items: center;
 		display: flex;
-		margin: auto 0 0 2em;
+		margin: 1.2em;
 	}
 }
 @media only screen and (max-width: 600px) {

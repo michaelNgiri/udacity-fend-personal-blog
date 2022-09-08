@@ -55,9 +55,9 @@ p:hover::before {
 }
 .welcome-txt {
 	text-align: left;
-	margin-left: 1.2em;
+	margin: 1.2em;
 }
 .home-intro {
 	text-align: center;
-	margin-left: 1em;
+	margin: 1em;
 }

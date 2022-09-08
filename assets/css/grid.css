@@ -16,7 +16,7 @@
 }
 @media only screen and (max-width: 1200px) {
 	/*Tablets [601px -> 1200px]*/
-	img {
+	img:not(.icon) {
 		width: 300px;
 		height: auto;
 	}
@@ -26,10 +26,13 @@
 		display: flex;
 		margin: 1.2em;
 	}
+	.post-img {
+		width: 300px !important;
+	}
 }
 @media only screen and (max-width: 600px) {
 	/*Big smartphones [426px -> 600px]*/
-	img {
+	img:not(.icon) {
 		width: 300px;
 		height: auto;
 	}
@@ -43,11 +46,14 @@
 		align-items: center;
 		display: flex;
 		/* grid-template-columns: 1fr 1fr 1fr 1fr; */
+	}
+	.post-img {
+		width: 250px !important;
 	}
 }
 @media only screen and (max-width: 425px) {
 	/*Small smartphones [325px -> 425px]*/
-	img {
+	img:not(.icon) {
 		width: 300px;
 		height: auto;
 	}
@@ -61,6 +67,9 @@
 		align-items: center;
 		display: flex;
 		/* grid-template-columns: 1fr 1fr 1fr 1fr; */
+	}
+	.post-img {
+		width: 200px !important;
 	}
 }
 .food-title {

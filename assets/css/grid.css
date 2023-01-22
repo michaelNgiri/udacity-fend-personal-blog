@@ -107,7 +107,6 @@
 .socials-grid {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
-	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	gap: 1px;
 	/* grid-auto-rows: minmax(100px, auto); */
